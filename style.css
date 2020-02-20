@@ -1,0 +1,180 @@
+html{
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+a{
+    color:#000 !important;
+}
+a:hover{
+    text-decoration: none
+}
+ul{
+    padding:0
+}
+li{
+    list-style-type: none;
+}
+
+/******** Navbar Section *********/
+
+.navbar{
+    border-bottom:2px solid black;
+    min-height:60px;
+    background-color:#fff
+}
+
+.nav-link{
+    border-bottom:2px solid black
+}
+
+/******** Header Section *********/
+
+.header-section{
+    font-family: 'Roboto', sans-serif;
+    background:#66d0ba;
+    height:450px;
+    position: relative
+}
+.masthead-heading{
+    font-size:28px
+}
+.subheader{
+    font-size:25px;
+    letter-spacing: 2px;
+    border:5px solid white
+}
+
+/******** About Me Section *********/
+
+#about{
+    background-color:#72b5b7
+}
+.profile-picture{
+    width:150px;
+}
+.avatar-img{
+    width:50px;
+}
+.container-about{
+    width:50%;
+}
+.page-section-description{
+    line-height:1.8
+}
+.cv-vitae:hover{
+    text-decoration: underline !important;
+}
+
+/******** Portfolio Section *********/
+
+.btn-github{
+    text-decoration: underline
+}
+.img-fluid{
+    width:350px;
+    height:220px;
+}
+
+/******** Skills Section *********/
+
+#skills{
+    background-color:#dbeeea
+}
+.skills-container{
+    width:70%;
+    margin:0 auto
+}
+
+/******** Footer Section *********/
+
+footer{
+    background:#72b5b7;
+    position:relative
+}
+
+#portfolio,
+#about,
+#skills{
+    padding-top:70px
+}
+
+/* Style Font Awesome Icons */
+
+.fa-github,
+.fa-linkedin,
+.fa-envelope{
+    color:#000
+}
+.fa-html5{
+    color:#e54c21
+}
+.fa-css3-alt{
+    color:#264de4
+}
+.fa-js{
+    color:#f0db4f
+}
+.fa-react{
+    color:#00d8ff
+}
+.fa-vuejs{
+    color:#3fb984
+}
+.fa-bootstrap{
+   color:#553a7d
+}
+.fa-bars{
+    color:#000;
+    height:5px
+}
+.fa-check-square{
+    color:#008000
+}
+.fa-code{
+    position:absolute;
+    top:40%;
+    right:200px;
+    color: blue;
+}
+.fa-laptop-code{
+    position: absolute;
+    top:40%;
+    left:200px;
+    color:blue
+}
+
+/******** Media Queries *********/
+
+@media (max-width:790px){
+    .about-container{
+        width:100%;
+    }
+    #portfolio,
+    #about,
+    #skills{
+    padding-top:20px
+}
+}
+
+@media (max-width:991px){
+      .navbar-nav{
+        background:#f1fcfc
+    }
+    .nav-link:hover{
+        background:#72b5b7
+    }
+    .fa-code,
+    .fa-laptop-code{
+        font-size:30px
+    }
+    .fa-code{
+        right:100px;
+    }
+    .fa-laptop-code{
+        left:100px;
+    }
+    
+}
+
