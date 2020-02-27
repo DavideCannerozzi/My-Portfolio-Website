@@ -4,18 +4,10 @@ html{
     scroll-behavior: smooth
 }
 
-a{
-    color:#000 !important;
-}
-a:hover{
-    text-decoration: none
-}
-ul{
-    padding:0
-}
-li{
-    list-style-type: none;
-}
+a{ color:#000 !important; }
+a:hover{ text-decoration: none }
+ul{ padding:0 }
+li{ list-style-type: none; }
 
 /******** Navbar Section *********/
 
@@ -94,18 +86,34 @@ footer{
     position:relative
 }
 
+#backToTheTop{
+    font-size:50px;
+    position:fixed;
+    bottom:10px;
+    right:30px;
+    font-size:40px;
+    z-index:99;
+    display: none;
+}
+/*#backToTheTop::after{
+    content:"Back to the top";
+    font-size:15px;
+    margin-left:10px
+}*/
+
 #portfolio,
 #about,
 #skills{
     padding-top:70px
 }
 
-/* Style Font Awesome Icons */
+/******** Style Fontawsome Icons *********/
 
-.fa-github,
-.fa-linkedin,
 .fa-envelope{
-    color:#000
+    color:red
+}
+.fa-linkedin{
+    color:blue
 }
 .fa-html5{
     color:#e54c21
@@ -157,10 +165,12 @@ footer{
     padding-top:20px
 }
 }
-
 @media (max-width:991px){
-      .navbar-nav{
+    .navbar-nav{
         background:#f1fcfc
+    }
+    .navbar{
+        border-bottom:none
     }
     .nav-link:hover{
         background:#72b5b7
@@ -175,6 +185,5 @@ footer{
     .fa-laptop-code{
         left:100px;
     }
-    
 }
 
