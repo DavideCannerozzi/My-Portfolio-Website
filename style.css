@@ -1,24 +1,22 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
 html{
     font-family: 'Montserrat', sans-serif;
-    box-sizing: border-box;
     scroll-behavior: smooth
 }
-
-a{ color:#000 !important; }
-a:hover{ text-decoration: none }
-ul{ padding:0 }
 li{ list-style-type: none; }
 
 /******** Navbar Section *********/
 
 .navbar{
-    border-bottom:2px solid black;
-    min-height:60px;
+    border-bottom:0.2rem solid black;
     background-color:#fff
 }
-
-.nav-link{
-    border-bottom:2px solid black
+.avatar-img{
+    width:3rem;
 }
 
 /******** Header Section *********/
@@ -26,16 +24,16 @@ li{ list-style-type: none; }
 .header-section{
     font-family: 'Roboto', sans-serif;
     background:#66d0ba;
-    height:450px;
+    height:28rem;
     position: relative
 }
 .masthead-heading{
-    font-size:28px
+    font-size:1.75rem
 }
 .subheader{
-    font-size:25px;
-    letter-spacing: 2px;
-    border:5px solid white
+    font-size:1.5rem;
+    letter-spacing: 0.1rem;
+    border:0.3rem solid white
 }
 
 /******** About Me Section *********/
@@ -44,28 +42,20 @@ li{ list-style-type: none; }
     background-color:#72b5b7
 }
 .profile-picture{
-    width:150px;
+    width:9.5rem;
 }
-.avatar-img{
-    width:50px;
-}
+
 .container-about{
     width:50%;
 }
 .page-section-description{
     line-height:1.8
 }
-.cv-vitae:hover{
-    text-decoration: underline !important;
-}
 
 /******** Portfolio Section *********/
 
-.btn-github{
-    text-decoration: underline
-}
 .img-fluid{
-    width:350px;
+    width:370px;
     height:220px;
 }
 
@@ -87,69 +77,45 @@ footer{
 }
 
 #backToTheTop{
-    font-size:50px;
-    position:fixed;
-    bottom:10px;
-    right:30px;
-    font-size:40px;
-    z-index:99;
+    font-size:2.5rem;
     display: none;
+    position:fixed;
+    bottom:0.6rem;
+    right:1rem;
+    z-index:99;
 }
-/*#backToTheTop::after{
-    content:"Back to the top";
-    font-size:15px;
-    margin-left:10px
-}*/
-
 #portfolio,
 #about,
 #skills{
-    padding-top:70px
+    padding-top:4.4rem
 }
 
 /******** Style Fontawsome Icons *********/
 
-.fa-envelope{
-    color:red
-}
-.fa-linkedin{
-    color:blue
-}
-.fa-html5{
-    color:#e54c21
-}
-.fa-css3-alt{
-    color:#264de4
-}
-.fa-js{
-    color:#f0db4f
-}
-.fa-react{
-    color:#00d8ff
-}
-.fa-vuejs{
-    color:#3fb984
-}
-.fa-bootstrap{
-   color:#553a7d
-}
+.fa-envelope{ color:red }
+.fa-linkedin{ color:blue }
+.fa-html5{ color:#e54c21 }
+.fa-css3-alt{ color:#264de4 }
+.fa-js{ color:#f0db4f }
+.fa-react{ color:#00d8ff }
+.fa-vuejs{ color:#3fb984 }
+.fa-bootstrap{ color:#553a7d }
+.fa-check-square{ color:#008000 }
+.fa-github{ color:#313030 }
 .fa-bars{
     color:#000;
-    height:5px
-}
-.fa-check-square{
-    color:#008000
+    height:5px 
 }
 .fa-code{
     position:absolute;
     top:40%;
-    right:200px;
+    right:12.5rem;
     color: blue;
 }
 .fa-laptop-code{
     position: absolute;
     top:40%;
-    left:200px;
+    left:12.5rem;
     color:blue
 }
 
@@ -162,7 +128,7 @@ footer{
     #portfolio,
     #about,
     #skills{
-    padding-top:20px
+    padding-top:1.25rem
 }
 }
 @media (max-width:991px){
@@ -177,13 +143,9 @@ footer{
     }
     .fa-code,
     .fa-laptop-code{
-        font-size:30px
+        font-size:1.8rem
     }
-    .fa-code{
-        right:100px;
-    }
-    .fa-laptop-code{
-        left:100px;
-    }
+    .fa-code,
+    .fa-laptop-code{ display: none }
 }
 
