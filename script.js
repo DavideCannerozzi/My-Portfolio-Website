@@ -4,9 +4,10 @@ const myButton = document.getElementById('backToTheTop')
 window.onscroll = function() {scrollToTheTop()};
 
 scrollToTheTop = () => {
-    if (document.body.scrollTop > 900 || document.documentElement.scrollTop > 900){
+    if(document.body.scrollTop > 900 || document.documentElement.scrollTop > 900){
         myButton.style.display = 'block'
     }else{
         myButton.style.display = 'none'
     }
 }
+

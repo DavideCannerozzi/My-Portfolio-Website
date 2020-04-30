@@ -15,9 +15,7 @@ li{ list-style-type: none; }
     border-bottom:0.2rem solid black;
     background-color:#fff
 }
-.avatar-img{
-    width:3rem;
-}
+.avatar-img{ width:3rem; }
 
 /******** Header Section *********/
 
@@ -27,9 +25,6 @@ li{ list-style-type: none; }
     height:28rem;
     position: relative
 }
-.masthead-heading{
-    font-size:1.75rem
-}
 .subheader{
     font-size:1.5rem;
     letter-spacing: 0.1rem;
@@ -38,19 +33,10 @@ li{ list-style-type: none; }
 
 /******** About Me Section *********/
 
-#about{
-    background-color:#72b5b7
-}
-.profile-picture{
-    width:9.5rem;
-}
-
-.container-about{
-    width:50%;
-}
-.page-section-description{
-    line-height:1.8
-}
+#about{ background-color:#72b5b7 }
+.profile-picture{ width:9.5rem }
+.container-about{ width:50%; }
+.page-section-description{ line-height:1.8 }
 
 /******** Portfolio Section *********/
 
@@ -61,9 +47,7 @@ li{ list-style-type: none; }
 
 /******** Skills Section *********/
 
-#skills{
-    background-color:#dbeeea
-}
+#skills{ background-color:#dbeeea }
 .skills-container{
     width:70%;
     margin:0 auto
@@ -86,9 +70,7 @@ footer{
 }
 #portfolio,
 #about,
-#skills{
-    padding-top:4.4rem
-}
+#skills{ padding-top:4.4rem } 
 
 /******** Style Fontawsome Icons *********/
 
@@ -98,7 +80,7 @@ footer{
 .fa-css3-alt{ color:#264de4 }
 .fa-js{ color:#f0db4f }
 .fa-react{ color:#00d8ff }
-.fa-vuejs{ color:#3fb984 }
+.fa-vuejs{ color:#4d4e4e }
 .fa-bootstrap{ color:#553a7d }
 .fa-check-square{ color:#008000 }
 .fa-github{ color:#313030 }
@@ -122,29 +104,27 @@ footer{
 /******** Media Queries *********/
 
 @media (max-width:790px){
-    .about-container{
-        width:100%;
-    }
+    .about-container{ width:100%; }
+    
     #portfolio,
     #about,
     #skills{
     padding-top:1.25rem
-}
+    }
+    .container-about{
+        width:80%
+    }
 }
 @media (max-width:991px){
     .navbar-nav{
         background:#f1fcfc
     }
-    .navbar{
-        border-bottom:none
-    }
-    .nav-link:hover{
-        background:#72b5b7
-    }
+    .navbar{ border-bottom:none }
+    .nav-link:hover{ background:#72b5b7 }
+
     .fa-code,
-    .fa-laptop-code{
-        font-size:1.8rem
-    }
+    .fa-laptop-code{ font-size:1.8rem } 
+    
     .fa-code,
     .fa-laptop-code{ display: none }
 }
