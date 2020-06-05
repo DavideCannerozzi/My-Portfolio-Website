@@ -26,7 +26,7 @@ li{ list-style-type: none; }
 
 .header-section{
     font-family: 'Roboto', sans-serif;
-    height:28rem;
+    height:35rem;
 }
 .subheader{
     font-size:1.5rem;
@@ -75,7 +75,7 @@ footer{
 #about,
 #skills{ padding-top:4.4rem } 
 
-/******** Style Fontawsome Icons *********/
+/******** Style Fontawesome Icons *********/
 
 .fa-envelope{ color:red }
 .fa-linkedin{ color:blue }
@@ -108,7 +108,6 @@ footer{
 /******** Media Queries *********/
 
 @media (max-width:790px){
-    
     #portfolio,
     #about,
     #skills{
@@ -122,15 +121,7 @@ footer{
     }
 }
 @media (max-width:991px){
-    .navbar-nav{
-        background:#f1fcfc
-    }
-    .navbar{ border-bottom:none }
-    .nav-link:hover{ background:#72b5b7 }
-
-    .fa-code,
-    .fa-laptop-code{ font-size:1.8rem } 
-    
+    .navbar{ border-bottom:none }   
     .fa-code,
     .fa-laptop-code{ display: none }
 }

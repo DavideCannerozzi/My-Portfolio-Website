@@ -1,4 +1,5 @@
 /* Arrow Scroll On The Top */
+
 const myButton = document.getElementById('backToTheTop')
 
 window.onscroll = function() {scrollToTheTop()};

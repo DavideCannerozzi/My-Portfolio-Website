@@ -1,0 +1,7 @@
+{
+    "html.format.wrapAttributes": "force",
+    "[markdown]": {
+    
+    },
+    "editor.wordWrap": "on"
+}
