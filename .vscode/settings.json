@@ -3,5 +3,9 @@
     "[markdown]": {
     
     },
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "cSpell.words": [
+        "cannerozzi",
+        "keyworks"
+    ]
 }

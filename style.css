@@ -2,8 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
-}
-html{
     font-family: 'Montserrat', sans-serif;
     scroll-behavior: smooth;
     letter-spacing: 0.1rem;
@@ -25,8 +23,7 @@ li{ list-style-type: none; }
 /******** Header Section *********/
 
 .header-section{
-    font-family: 'Roboto', sans-serif;
-    height:35rem;
+    padding:8rem
 }
 .subheader{
     font-size:1.5rem;
@@ -49,6 +46,7 @@ li{ list-style-type: none; }
     width:370px;
     height:220px;
 }
+.btn{ background: #25557C }
 
 /******** Skills Section *********/
 
