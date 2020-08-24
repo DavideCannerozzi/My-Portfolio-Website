@@ -16,6 +16,16 @@ li{ list-style-type: none; }
     margin-bottom:-1px
 }
 .avatar-img{ width:3rem; }
+.link-blog{
+    border:1px solid #ff0000;
+    color:#000
+}
+.link-blog:hover{   
+    background:#ff0000;
+    color:#fff;
+    border-bottom:none;
+    margin-bottom:1px
+}
 
 /******** Header Section *********/
 
